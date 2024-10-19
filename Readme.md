@@ -55,6 +55,10 @@ This project implements a rule engine using an Abstract Syntax Tree (AST) to eva
 
 ## Design Choices
 
+ <div id="header" align="center">
+  <img src="https://media.giphy.com/media/jzuSsejVh8EYRfdOTz/giphy.gif?cid=ecf05e47vbyg4kvtrcv9fhy38lkc9a67y8tp03v7oy8xcfbt&ep=v1_gifs_related&rid=giphy.gif&ct=s" width="100"/>
+</div>
+
 - **AST Representation**: The rules are parsed into an Abstract Syntax Tree to allow for efficient evaluation and manipulation.
 - **Optimization of Rules**: Redundant conditions are minimized when combining rules to enhance performance.
 - **Web Interface**: A user-friendly UI is provided for interacting with the rule engine without the need for direct API calls.
