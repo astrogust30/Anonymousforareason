@@ -193,7 +193,9 @@ First, ensure you have Docker installed on your machine. Then, build the Docker 
  ```
 Access application through : http://localhost:5000
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8288b0c5-b87d-4d38-93d0-77fb1e6220fd/92b34211-952e-40b5-8cc3-74d564f85b84/image.png)
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/63692d30-88fe-4c1f-bc31-8ce32d6c8da7">
+
+
 
 ### **Testing the Application**
 
