@@ -151,3 +151,52 @@ This project implements a rule engine using an Abstract Syntax Tree (AST) to eva
 
 ## File Structure
 
+root/
+├── app.py
+├── requirements.txt
+├── README.md
+├── templates/
+│   └── index.html
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── app.js
+└── rules.db
+
+## Details of Key Files
+
+- **app.py**: The main Flask application file containing:
+  - Route Definitions: Defines the endpoints for creating rules, combining rules, and evaluating rules.
+  - AST Functions: Contains functions for tokenizing, parsing, and evaluating rules represented as ASTs.
+  - Database Functions: Manages the creation of the database and interactions with the rules table.
+
+- **templates/index.html**: The HTML template for the user interface, providing forms and displays for:
+  - Creating Rules
+  - Combining Rules
+  - Evaluating Rules
+
+- **static/css/style.css**: Custom CSS styles to enhance the visual appeal of the application, including:
+  - Layout and Spacing
+  - Color Scheme
+  - Responsive Design
+
+- **static/js/app.js**: Custom JavaScript for client-side interactivity and AJAX calls, handling:
+  - Form Submissions
+  - API Requests
+  - Result Display
+
+## License
+
+All rights reserved with khushisharmasre30@gmail.com
+
+## Contact Information
+
+For any questions or suggestions, please open an issue or contact the repository owner.
+
+## Additional Notes
+
+- **Security**: Remember to set a strong `secret_key` in `app.py` for session management if sessions are used.
+- **Extensibility**: The system is designed to be easily extendable for additional features or integration with other systems.
+- **Testing**: Test the application thoroughly with different rule combinations and user data to ensure reliability.
+
