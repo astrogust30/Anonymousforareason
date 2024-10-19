@@ -150,7 +150,7 @@ This project implements a rule engine using an Abstract Syntax Tree (AST) to eva
 - **Error Handling and Validation**: Implemented comprehensive error handling for invalid inputs. Validated attributes against a predefined catalog to ensure consistency.
 
 ## File Structure
-
+ ```sh
 root/
 ├── app.py
 ├── requirements.txt
@@ -163,6 +163,7 @@ root/
 │   └── js/
 │       └── app.js
 └── rules.db
+```
 
 ## Details of Key Files
 
