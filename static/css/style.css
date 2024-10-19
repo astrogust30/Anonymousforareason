@@ -1,0 +1,42 @@
+/* style.css */
+
+/* Custom Styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+#result {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.2em;
+    }
+
+    .card-header h2 {
+        font-size: 1.5em;
+    }
+
+    button {
+        width: 100%;
+    }
+}
