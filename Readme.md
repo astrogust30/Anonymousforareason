@@ -138,19 +138,16 @@ This project implements a rule engine using an Abstract Syntax Tree (AST) to eva
     
     ```
     
-2. **Save the Script**:
-    - Save the provided Python code in a file named **`app.py`**.
-    - Save the HTML content in a file named **`templates/index.html`**.
-3. **Run the Application**:
+2. **Run the Application**:
     
     ```bash
     python app.py
     
     ```
     
-4. **Access the UI**:
+3. **Access the UI**:
     - Open a web browser and navigate to **`http://localhost:5000`**.
-5. **Interact with the Rule Engine**:
+4. **Interact with the Rule Engine**:
     - **Create Rules**: Use the form to create new rules by providing a name and a rule string.
     - **View Rules**: Existing rules will be listed on the page.
     - **Combine Rules**: Enter rule names (comma-separated) to combine them.
