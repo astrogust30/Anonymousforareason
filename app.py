@@ -361,4 +361,5 @@ def api_evaluate_rule():
 # Main execution
 if __name__ == '__main__':
     create_database()
-    app.run(debug=True)
+    #app.run(debug=True)
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
