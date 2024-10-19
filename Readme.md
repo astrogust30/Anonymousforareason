@@ -7,6 +7,7 @@
 
 Welcome to my project, an engine that evaluates rules using an AST. This application determines user eligibility based on attributes like age, department, income, spending habits, and more. It leverages an AST to represent conditional logic, allowing for dynamic creation, combination, and modification of these rules.
 
+### Read about the project in detail at :  https://reinvented-handle-6e0.notion.site/Application-1-Rule-Engine-with-AST-11e04110e05f808ba345d570345d058e?pvs=4
 
 ## Table of Content  <div id="header" align="center">
   <img src="https://media.giphy.com/media/Qo2dupDib32rkTY4hX/giphy.gif?cid=ecf05e47viopwlm7lo1gou3g05zpjr1edr7jzyf2pqpv70ny&ep=v1_gifs_related&rid=giphy.gif&ct=s" width="100"/>
