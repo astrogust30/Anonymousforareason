@@ -193,11 +193,7 @@ First, ensure you have Docker installed on your machine. Then, build the Docker 
  ```
 Access application through : http://localhost:5000
 
-**Interact with the Rule Engine**:
-    - **Create Rules**: Use the form to create new rules by providing a name and a rule string.
-    - **View Rules**: Existing rules will be listed on the page.
-    - **Combine Rules**: Enter rule names (comma-separated) to combine them.
-    - **Evaluate Rules**: Provide the combined AST JSON and user data to evaluate eligibility.
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8288b0c5-b87d-4d38-93d0-77fb1e6220fd/92b34211-952e-40b5-8cc3-74d564f85b84/image.png)
 
 ### **Testing the Application**
 
