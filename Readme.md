@@ -153,6 +153,8 @@ Visualization of DB
 
 ### **How to Run the Application**
 
+### WAY 1: Build Locally
+
 1. **Install Dependencies**:
     
     ```bash
@@ -172,6 +174,26 @@ Visualization of DB
 4. **Access the UI**:
     - Open a web browser and navigate to **`http://localhost:5000`**.
 5. **Interact with the Rule Engine**:
+    - **Create Rules**: Use the form to create new rules by providing a name and a rule string.
+    - **View Rules**: Existing rules will be listed on the page.
+    - **Combine Rules**: Enter rule names (comma-separated) to combine them.
+    - **Evaluate Rules**: Provide the combined AST JSON and user data to evaluate eligibility.
+
+### WAY 2 : Build the Docker Image
+
+Do not delete rule.db file
+
+First, ensure you have Docker installed on your machine. Then, build the Docker image using the following command:
+
+ ```bash
+   docker login
+   docker build -t your-container-name .
+   docker run -d -p 5000:5000 your-container-name  
+    
+ ```
+Access application through : http://localhost:5000
+
+**Interact with the Rule Engine**:
     - **Create Rules**: Use the form to create new rules by providing a name and a rule string.
     - **View Rules**: Existing rules will be listed on the page.
     - **Combine Rules**: Enter rule names (comma-separated) to combine them.
