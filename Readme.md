@@ -34,7 +34,7 @@ Welcome to my project, an engine that evaluates rules using an AST. This applica
 
 ## Introduction
 
-This project implements a rule engine using an Abstract Syntax Tree (AST) to evaluate user eligibility based on dynamic rules. It consists of:
+It consists of:
 
 - **Backend**: Python application using Flask for the API layer.
 - **Frontend**: HTML templates styled with Bootstrap for a modern UI.
