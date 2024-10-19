@@ -219,7 +219,6 @@ This project implements a rule engine using an Abstract Syntax Tree (AST) to eva
  ```sh
 root/
 ├── app.py
-├── requirements.txt
 ├── README.md
 ├── templates/
 │   └── index.html
