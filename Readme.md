@@ -145,15 +145,17 @@ It consists of:
     ```
     
 2. **Run the Application**:
+
+    Remove rules.db file
     
     ```bash
     python app.py
     
     ```
     
-3. **Access the UI**:
+4. **Access the UI**:
     - Open a web browser and navigate to **`http://localhost:5000`**.
-4. **Interact with the Rule Engine**:
+5. **Interact with the Rule Engine**:
     - **Create Rules**: Use the form to create new rules by providing a name and a rule string.
     - **View Rules**: Existing rules will be listed on the page.
     - **Combine Rules**: Enter rule names (comma-separated) to combine them.
