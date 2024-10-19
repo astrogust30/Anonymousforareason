@@ -40,9 +40,10 @@ It consists of:
 - **Frontend**: HTML templates styled with Bootstrap for a modern UI.
 - **Database**: SQLite for storing rules and application metadata.
   
-![image](https://github.com/user-attachments/assets/db7bc5c1-fa9b-4cc6-a7f1-6fca7cb4c319)
 
 ![image](https://github.com/user-attachments/assets/2daad502-c319-407b-b577-4ac8e7765714)
+
+![image](https://github.com/user-attachments/assets/db7bc5c1-fa9b-4cc6-a7f1-6fca7cb4c319)
 
 ![image](https://github.com/user-attachments/assets/09d72414-d58c-4d8c-883c-84252b724c67)
 
