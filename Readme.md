@@ -103,6 +103,13 @@ It consists of:
 2. Click on "Evaluate" to assess eligibility.
 3. The result will display whether the user is eligible based on the combined rule.
 
+Visualization of DB
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/6a5fce5c-18bb-46a4-8f0f-d596540e0039">
+
+<img width="728" alt="image" src="https://github.com/user-attachments/assets/9c10dd19-5fdf-4900-bfe4-fd0dcf0f6f43">
+
+
 ## API Endpoints
 
 ### POST /api/rules
