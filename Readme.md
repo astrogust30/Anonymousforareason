@@ -129,16 +129,79 @@ This project implements a rule engine using an Abstract Syntax Tree (AST) to eva
 
 ### Build Instructions
 
-#### Set Up Environment
-- Use a virtual environment to manage dependencies.
-- Install required packages using `requirements.txt`.
+### **How to Run the Application**
 
-#### Initialize the Application
-- The database initializes on the first run.
-- Run `app.py` to start the Flask server.
+1. **Install Dependencies**:
+    
+    ```bash
+    pip install flask
+    
+    ```
+    
+2. **Save the Script**:
+    - Save the provided Python code in a file named **`app.py`**.
+    - Save the HTML content in a file named **`templates/index.html`**.
+3. **Run the Application**:
+    
+    ```bash
+    python app.py
+    
+    ```
+    
+4. **Access the UI**:
+    - Open a web browser and navigate to **`http://localhost:5000`**.
+5. **Interact with the Rule Engine**:
+    - **Create Rules**: Use the form to create new rules by providing a name and a rule string.
+    - **View Rules**: Existing rules will be listed on the page.
+    - **Combine Rules**: Enter rule names (comma-separated) to combine them.
+    - **Evaluate Rules**: Provide the combined AST JSON and user data to evaluate eligibility.
 
-#### Access the Application
-- Open `http://localhost:5000` in a web browser.
+### **Testing the Application**
+
+### **Sample Rules**
+
+- **Rule 1**:
+    
+    ```
+    ((age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing')) AND (salary > 50000 OR experience > 5)
+    
+    ```
+    
+- **Rule 2**:
+    
+    ```
+    ((age > 30 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)
+    
+    ```
+    
+
+### **Sample User Data**
+
+```json
+{
+  "age": 35,
+  "department": "Sales",
+  "salary": 60000,
+  "experience": 3
+}
+
+```
+
+### **Steps:**
+
+1. **Create Rules**:
+    - Use the "Create a New Rule" form to add Rule 1 and Rule 2 with names **`rule1`** and **`rule2`** respectively.
+2. **Combine Rules**:
+    - Enter **`rule1, rule2`** in the "Combine Rules" form to combine them.
+    - The combined AST JSON will be displayed in the "Evaluate Rule" section.
+3. **Evaluate Rule**:
+    - Paste the sample user data into the "User Data" field.
+    - Click "Evaluate" to check if the user is eligible based on the combined rule.
+    - The result will be displayed below the form.
+
+### **Expected Outcome**
+
+- The sample user data should result in **`Eligible: True`** if it satisfies any of the combined rules.
 
 ### Design Choices
 
