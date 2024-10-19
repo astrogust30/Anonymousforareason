@@ -70,3 +70,84 @@ This project implements a rule engine using an Abstract Syntax Tree (AST) to eva
  <div id="header" align="center">
   <img src="https://media.giphy.com/media/jzuSsejVh8EYRfdOTz/giphy.gif?cid=ecf05e47vbyg4kvtrcv9fhy38lkc9a67y8tp03v7oy8xcfbt&ep=v1_gifs_related&rid=giphy.gif&ct=s" width="300" height="300"/>
 </div>
+
+
+## Usage
+
+### Create a New Rule
+1. On the Rule Engine homepage, use the form to enter a unique rule name and a valid rule string.
+2. Click on "Create Rule" to save the rule.
+
+### Combine Rules
+1. Enter the names of the rules you wish to combine, separated by commas (e.g., `rule1, rule2`).
+2. Click on "Combine Rules" to merge them.
+3. The combined AST JSON will appear in the Evaluate Rule section.
+
+### Evaluate Rule
+1. Provide user data in JSON format in the User Data field.
+2. Click on "Evaluate" to assess eligibility.
+3. The result will display whether the user is eligible based on the combined rule.
+
+## API Endpoints
+
+### POST /api/rules
+- **Description**: Creates a new rule.
+- **Parameters**:
+  - `name`: Unique name for the rule.
+  - `rule_string`: The rule logic in string format.
+- **Response**:
+  - `201 Created`: Rule created successfully.
+  - `400 Bad Request`: Error message.
+
+### POST /api/rules/combine
+- **Description**: Combines multiple rules into one.
+- **Parameters**:
+  - `rule_names`: List of rule names to combine.
+- **Response**:
+  - `200 OK`: Combined AST JSON.
+  - `400 Bad Request`: Error message.
+
+### POST /api/evaluate
+- **Description**: Evaluates user data against the combined rule.
+- **Parameters**:
+  - `ast_json`: The combined AST in JSON format.
+  - `user_data`: User attributes in JSON format.
+- **Response**:
+  - `200 OK`: Eligibility result.
+  - `400 Bad Request`: Error message.
+
+## Dependencies
+
+- **Flask**: Install with `pip install flask`
+- **Flask-Session**: Install with `pip install flask-session`
+- **Bootstrap**: Included via CDN in templates.
+- **jQuery**: Included via CDN in templates.
+- **Font Awesome**: Included via CDN in templates.
+- All Python dependencies are listed in `requirements.txt`.
+
+## Build Instructions and Design Choices
+
+### Build Instructions
+
+#### Set Up Environment
+- Use a virtual environment to manage dependencies.
+- Install required packages using `requirements.txt`.
+
+#### Initialize the Application
+- The database initializes on the first run.
+- Run `app.py` to start the Flask server.
+
+#### Access the Application
+- Open `http://localhost:5000` in a web browser.
+
+### Design Choices
+
+- **AST Implementation**: Utilized an AST to parse and represent rules, allowing for dynamic creation, combination, and modification.
+- **Optimized Rule Combination**: Implemented a function to optimize and combine multiple rules into a single AST, minimizing redundant checks.
+- **Modern UI with Bootstrap**: Adopted Bootstrap for a responsive and modern user interface. Included Font Awesome icons to enhance visual appeal.
+- **API Layer**: Created RESTful API endpoints using Flask to interact with the rule engine programmatically.
+- **Database Choice**: Chose SQLite for simplicity and ease of setup, suitable for development and lightweight applications.
+- **Error Handling and Validation**: Implemented comprehensive error handling for invalid inputs. Validated attributes against a predefined catalog to ensure consistency.
+
+## File Structure
+
