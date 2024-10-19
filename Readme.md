@@ -9,6 +9,11 @@ Welcome to my project, an engine that evaluates rules using an AST. This applica
 
 ### Read about the project in detail at :  https://reinvented-handle-6e0.notion.site/Application-1-Rule-Engine-with-AST-11e04110e05f808ba345d570345d058e?pvs=4
 
+### Warning
+
+**Please Note:** The code and content within this project are provided for reference purposes only. Unauthorized copying, reproduction, or distribution of the code without permission is prohibited. If you wish to use any part of this project, please contact the repository owner at khushisharmasre30@gmail.com for appropriate permissions.
+
+
 ## Table of Content  <div id="header" align="center">
   <img src="https://media.giphy.com/media/Qo2dupDib32rkTY4hX/giphy.gif?cid=ecf05e47viopwlm7lo1gou3g05zpjr1edr7jzyf2pqpv70ny&ep=v1_gifs_related&rid=giphy.gif&ct=s" width="100"/>
 </div>
@@ -254,7 +259,7 @@ All rights reserved with khushisharmasre30@gmail.com
 
 ## Contact Information
 
-For any questions or suggestions, please open an issue or contact the repository owner.
+For any questions or suggestions, please open an issue or contact the repository owner at khushisharmasre30@gmail.com.
 
 ## Additional Notes
 
