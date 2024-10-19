@@ -53,8 +53,6 @@ Welcome to my project, an engine that evaluates rules using an AST. This applica
     - Click "Evaluate" to check if the user is eligible based on the combined rule.
     - The result will be displayed below the form.
 
-### Read about the project in detail at :  https://reinvented-handle-6e0.notion.site/Application-1-Rule-Engine-with-AST-11e04110e05f808ba345d570345d058e?pvs=4
-
 ### Warning
 
 **Please Note:** The code and content within this project are provided for reference purposes only. Unauthorized copying, reproduction, or distribution of the code without permission is prohibited. If you wish to use any part of this project, please contact the repository owner at khushisharmasre30@gmail.com for appropriate permissions.
