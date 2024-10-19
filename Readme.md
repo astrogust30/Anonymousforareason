@@ -7,6 +7,52 @@
 
 Welcome to my project, an engine that evaluates rules using an AST. This application determines user eligibility based on attributes like age, department, income, spending habits, and more. It leverages an AST to represent conditional logic, allowing for dynamic creation, combination, and modification of these rules.
 
+### Check out the live website: https://anonymousforareason.onrender.com/
+
+
+### **Testing the Application**
+
+### **Sample Rules**
+
+- **Rule 1**:
+    
+    ```
+    ((age > 30 AND department = 'Sales') OR (age < 25 AND department = 'Marketing')) AND (salary > 50000 OR experience > 5)
+    
+    ```
+    
+- **Rule 2**:
+    
+    ```
+    ((age > 30 AND department = 'Marketing')) AND (salary > 20000 OR experience > 5)
+    
+    ```
+    
+
+### **Sample User Data**
+
+```json
+{
+  "age": 35,
+  "department": "Sales",
+  "salary": 60000,
+  "experience": 3
+}
+
+```
+
+### **Steps:**
+
+1. **Create Rules**:
+    - Use the "Create a New Rule" form to add Rule 1 and Rule 2 with names **`rule1`** and **`rule2`** respectively.
+2. **Combine Rules**:
+    - Enter **`rule1, rule2`** in the "Combine Rules" form to combine them.
+    - The combined AST JSON will be displayed in the "Evaluate Rule" section.
+3. **Evaluate Rule**:
+    - Paste the sample user data into the "User Data" field.
+    - Click "Evaluate" to check if the user is eligible based on the combined rule.
+    - The result will be displayed below the form.
+
 ### Read about the project in detail at :  https://reinvented-handle-6e0.notion.site/Application-1-Rule-Engine-with-AST-11e04110e05f808ba345d570345d058e?pvs=4
 
 ### Warning
